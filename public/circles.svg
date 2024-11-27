@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Orbital paths -->
+  <ellipse cx="720" cy="512" rx="600" ry="400" stroke="rgba(255,255,255,0.1)" stroke-width="1" fill="none"/>
+  <ellipse cx="720" cy="512" rx="500" ry="300" stroke="rgba(255,255,255,0.1)" stroke-width="1" fill="none"/>
+  <ellipse cx="720" cy="512" rx="400" ry="200" stroke="rgba(255,255,255,0.1)" stroke-width="1" fill="none"/>
+  
+  <!-- Small stars/dots -->
+  <circle cx="300" cy="200" r="2" fill="white" opacity="0.5"/>
+  <circle cx="1100" cy="300" r="2" fill="white" opacity="0.5"/>
+  <circle cx="900" cy="700" r="2" fill="white" opacity="0.5"/>
+  <circle cx="500" cy="800" r="2" fill="white" opacity="0.5"/>
+  
+  <!-- Large glowing circle -->
+  <circle cx="1000" cy="400" r="100" fill="url(#yellowGlow)"/>
+  
+  <!-- Gradient definition -->
+  <defs>
+    <radialGradient id="yellowGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#FCD34D" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FCD34D" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg> 
